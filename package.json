@@ -1,0 +1,17 @@
+{
+    "name": "yarn",
+    "version": "0.1.0",
+    "authors": [ "Sirius" ],
+    "description": "Yarnwrap helper methods.",
+    "license": "AGPL-3.0-or-later",
+    "keywords": [ "core", "yarnwrap" ],
+
+    "entry": "entry.js",
+    "dependencies": {},
+    "javaDependencies": [
+        "yarnwrap"
+    ],
+
+    "repository": null,
+    "homepage": null
+}
