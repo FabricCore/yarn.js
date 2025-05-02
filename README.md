@@ -1,6 +1,6 @@
 # Yarn.js
 
-Yarnwrap helper functions.
+Yarnwrap helper functions. This module has a Java dependency of [**Yarnwrap**](https://github.com/FabricCore/yarnwrap).
 
 ```
 /pully install yarn
