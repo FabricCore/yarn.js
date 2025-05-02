@@ -2,6 +2,10 @@
 
 Yarnwrap helper functions. This module has a Java dependency of [**Yarnwrap**](https://github.com/FabricCore/yarnwrap).
 
+### Installation
+
+#### Using [pully](https://github.com/FabricCore/pully)
+
 ```
 /pully install yarn
 ```
