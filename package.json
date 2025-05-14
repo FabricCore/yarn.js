@@ -12,6 +12,6 @@
         "yarnwrap"
     ],
 
-    "repository": null,
+    "repository": "https://github.com/FabricCore/yarn.js",
     "homepage": null
 }
