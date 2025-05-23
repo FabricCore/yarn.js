@@ -38,11 +38,11 @@ The folder should look like this
 
 |Identifier|Type|Description|
 |---|---|---|
-|**yarn.client**|[**MinecraftClient**](https://fabriccore.github.io/yarnwrap/build/latest.html?q=client.MinecraftClient)|Instance of **MinecarftClient**|
-|**yarn.clientPlayer**|[**ClientPlayerEntity**](https://fabriccore.github.io/yarnwrap/build/latest.html?q=client.network.ClientPlayerEntity)|Current player|
-|**yarn.player**|[**PlayerEntity**](https://fabriccore.github.io/yarnwrap/build/latest.html?q=entity.player.PlayerEntity)|Current player|
-|**yarn.playerLiving**|[**LivingEntity**](https://fabriccore.github.io/yarnwrap/build/latest.html?q=entity.LivingEntity)|Current player|
-|**yarn.playerEntity**|[**Entity**](https://fabriccore.github.io/yarnwrap/build/latest.html?q=entity.Entity)|Current player|
+|**yarn.client()**|[**MinecraftClient**](https://yarnwrap.siri.ws/build/latest.html?q=client.MinecraftClient)|Instance of **MinecarftClient**|
+|**yarn.clientPlayer()**|[**ClientPlayerEntity**](https://yarnwrap.siri.ws/build/latest.html?q=client.network.ClientPlayerEntity)|Current player|
+|**yarn.player()**|[**PlayerEntity**](https://yarnwrap.siri.ws/build/latest.html?q=entity.player.PlayerEntity)|Current player|
+|**yarn.playerLiving()**|[**LivingEntity**](https://yarnwrap.siri.ws/build/latest.html?q=entity.LivingEntity)|Current player|
+|**yarn.playerEntity()**|[**Entity**](https://yarnwrap.siri.ws/build/latest.html?q=entity.Entity)|Current player|
 
 > *"One day I'll figure out how to determine whether one Minecraft class inherits another."*
 
@@ -61,14 +61,14 @@ Attempt to cast **input** to the target (Java) class, would throw an error if fa
 
 Returns a function which casts **input** to the target (Java) class.
 
-#### yarn.toPlayerEntity(input: JavaObject) → [PlayerEntity](https://fabriccore.github.io/yarnwrap/build/latest.html?q=entity.player.PlayerEntity)
+#### yarn.toPlayerEntity(input: JavaObject) → [PlayerEntity](https://yarnwrap.siri.ws/build/latest.html?q=entity.player.PlayerEntity)
 
 Attempts to convert to **PlayerEntity**.
 
-#### yarn.toLivingEntity(input: JavaObject) → [LivingEntity](https://fabriccore.github.io/yarnwrap/build/latest.html?q=entity.LivingEntity)
+#### yarn.toLivingEntity(input: JavaObject) → [LivingEntity](https://yarnwrap.siri.ws/build/latest.html?q=entity.LivingEntity)
 
 Attempts to convert to **LivingEntity**.
 
-#### yarn.toEntity(input: JavaObject) → [Entity](https://fabriccore.github.io/yarnwrap/build/latest.html?q=entity.Entity)
+#### yarn.toEntity(input: JavaObject) → [Entity](https://yarnwrap.siri.ws/build/latest.html?q=entity.Entity)
 
 Attempts to convert to **Entity**.
